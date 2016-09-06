@@ -1,0 +1,27 @@
+1.下载Cygwin
+http://www.cygwin.com/
+
+2.Install from Internet  -> Direct Connection -> 默认选择第一个网址，也可以选择其他网址
+
+3.Select Packages -> 展开Devel -> 选择或搜索以下Package
+binutils
+gcc-core
+gcc-g++
+gdb
+make
+gperf
+libevent-devel
+
+4.下载gearman
+https://launchpad.net/gearmand
+
+5.解压gearman
+
+6.安装
+运行桌面上的Cygwin Terminal
+$ cd d:
+$ cd D:\gearmand-1.1.12
+$ ./configure #如果configure失败，就根据提示的configure: error: Unable to find xxx，重新运行Cygwin安装程序并搜索相应的xxx包，安装即可
+$ make
+$ make install
+
