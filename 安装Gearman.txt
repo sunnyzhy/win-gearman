@@ -10,6 +10,7 @@ gcc-g++
 gdb
 make
 gperf
+libboost-devel
 libevent-devel
 如果卸载cygwind，就在Select Packages的根目录选择Uninstall，点下一步即可
 
